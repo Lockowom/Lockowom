@@ -48,10 +48,14 @@ Conecto experiencia práctica en bodega e inventarios con desarrollo de software
 | :-- | :-- | :-- |
 | **CCO PTM** | Plataforma de control operacional: WMS, TMS, inventario, calidad y postventa | [Explorar](https://github.com/Lockowom/CCO_PTM) |
 | **Inventario** | Desarrollo de herramientas para procesos de inventario | [Explorar](https://github.com/Lockowom/inventario) |
-| **Inventario-** | Proyecto de inventario y desarrollo de interfaces | [Explorar](https://github.com/Lockowom/Inventario-) |
+| **INVEN3 (repositorio alternativo)** | Segundo repositorio público con documentación de INVEN3; no se presenta como producto distinto | [Explorar](https://github.com/Lockowom/Inventario-) |
 | **Gym Stats Pro** | Aplicación desarrollada con TypeScript | [Explorar](https://github.com/Lockowom/gym-stats-pro) |
 
 > Los enlaces anteriores corresponden a repositorios públicos. Los proyectos privados y la información interna no se exhiben.
+
+### Arquitectura y decisiones técnicas
+
+[**Explorar arquitectura técnica →**](docs/ARCHITECTURE.md) — diagramas de alto nivel basados en documentación pública, con límites explícitos sobre estado de despliegue y datos sensibles.
 
 ## 📊 Actividad en GitHub
 
