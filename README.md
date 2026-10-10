@@ -42,6 +42,12 @@ Conecto experiencia práctica en bodega e inventarios con desarrollo de software
 
 </div>
 
+## ✨ Engineering portfolio — visualización conceptual
+
+<table><tr><td width="50%"><a href="https://github.com/Lockowom/CCO_PTM"><img src="assets/cco-card.svg" alt="CCO PTM — tarjeta conceptual de arquitectura" width="100%"/></a></td><td width="50%"><a href="https://github.com/Lockowom/inventario"><img src="assets/inven3-card.svg" alt="INVEN3 — tarjeta conceptual de arquitectura" width="100%"/></a></td></tr><tr><td align="center"><strong>CCO PTM</strong> — control de operaciones</td><td align="center"><strong>INVEN3</strong> — inventario offline-first</td></tr></table>
+
+<sub>Ilustraciones originales del portafolio; no son capturas ni pruebas de despliegue.</sub>
+
 ## 🚀 Proyectos destacados
 
 | Proyecto | Objetivo | Repositorio |
