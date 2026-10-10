@@ -1,5 +1,7 @@
 # Visual showcase — asset intake and publication policy
 
+**[Public repository asset audit and real-screen capture specification →](EVIDENCE_AUDIT.md)**
+
 This directory is a **placeholder for approved real screenshots**, not a gallery of manufactured UI images.
 
 ## Proposed layout
