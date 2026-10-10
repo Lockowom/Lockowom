@@ -57,6 +57,11 @@ Conecto experiencia práctica en bodega e inventarios con desarrollo de software
 
 [**Explorar arquitectura técnica →**](docs/ARCHITECTURE.md) — diagramas de alto nivel basados en documentación pública, con límites explícitos sobre estado de despliegue y datos sensibles.
 
+## 🗂️ Casos técnicos y galería
+
+- [**Casos de estudio técnicos →**](docs/PROJECT_SHOWCASES.md) — alcance, problemas abordados, stack y evidencia pública.
+- [**Galería visual →**](showcase/README.md) — estructura preparada para capturas auténticas, pendientes de revisión y autorización.
+
 ## 📊 Actividad en GitHub
 
 <div align="center">
