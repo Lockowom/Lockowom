@@ -1,0 +1,43 @@
+name: Profile quality check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - assets/banner.svg
+      - .github/workflows/profile-quality.yml
+  schedule:
+    - cron: "17 10 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-profile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+      - name: Validate local assets and basic presentation
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import xml.etree.ElementTree as ET
+          readme = Path('README.md')
+          banner = Path('assets/banner.svg')
+          assert readme.is_file(), 'README.md is missing'
+          assert banner.is_file(), 'Banner asset is missing'
+          content = readme.read_text(encoding='utf-8')
+          ET.parse(banner)
+          for heading in ('Sobre mí', 'Proyectos destacados', 'Actividad en GitHub', 'About me'):
+              assert heading in content, f'Missing profile section: {heading}'
+          for relative in re.findall(r'(?:src|href)="(\./[^"#?]+)"', content):
+              assert Path(relative).is_file(), f'Missing relative file: {relative}'
+          assert '<img src="./assets/banner.svg"' in content, 'Expected profile banner link missing'
+          print('Profile checks passed.')
+          PY
