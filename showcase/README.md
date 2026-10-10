@@ -24,3 +24,10 @@ This directory is a **placeholder for approved real screenshots**, not a gallery
 - Add descriptive alternative text and project links in README after assets exist.
 
 **No actual screenshots have been published through this placeholder.**
+
+## Conceptual artwork currently available
+
+- [CCO PTM conceptual illustration](../assets/cco-card.svg)
+- [INVEN3 conceptual illustration](../assets/inven3-card.svg)
+
+These illustrations are portfolio artwork, **not real application screenshots**. The real screenshot intake table above remains pending.
